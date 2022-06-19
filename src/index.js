@@ -4,23 +4,26 @@ import App from "./App";
 
 const notes = [
   {
+    userId: 1,
     id: 1,
-    content: "visit.teide",
-    date: "2022-06-19 04:58:57",
-    important: true,
-    categories: ["HNS", "SOL", "CANAR"]
+    title:
+      "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+    body:
+      "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
   },
   {
+    userId: 1,
     id: 2,
-    content: "pen.cil",
-    date: "2022-06-19 05:59:03",
-    important: true
+    title: "qui est esse",
+    body:
+      "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
   },
   {
+    userId: 1,
     id: 3,
-    content: "vamos.tío",
-    date: "2022-06-19 06:00:14",
-    important: true
+    title: "ea molestias quasi exercitationem repellat qui ipsa sit aut",
+    body:
+      "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
   }
 ];
 
